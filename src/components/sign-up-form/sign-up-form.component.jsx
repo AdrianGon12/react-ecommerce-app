@@ -47,8 +47,6 @@ const SignUpForm = () => {
         console.log('user creation encountered an error', error);
       }
     }
-
-    await createAuthUserWithEmailAndPassword(email, password);
   };
 
   const handleChange = (event) => {
